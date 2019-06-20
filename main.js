@@ -16,7 +16,7 @@ const IS_DEBUG = IS_DEV || process.argv[1] === 'debug' || process.argv[2] === 'd
 const LOG_LEVEL = IS_DEBUG ? 'debug' : 'warn';
 const WALLET_CFGFILE = path.join(app.getPath('userData'), 'wconfig.txt');
 
-const WALLETSHELL_VERSION = app.getVersion() || '0.3.x';
+const WALLETSHELL_VERSION = app.getVersion() || '0.1.x';
 const SERVICE_FILENAME = (platform === 'win32' ? `${config.walletServiceBinaryFilename}.exe` : config.walletServiceBinaryFilename);
 const SERVICE_OSDIR = (platform === 'win32' ? 'win' : (platform === 'darwin' ? 'osx' : 'lin'));
 const DEFAULT_SERVICE_BIN = path.join(process.resourcesPath, 'bin', SERVICE_OSDIR, SERVICE_FILENAME);
@@ -35,14 +35,14 @@ const DEFAULT_SETTINGS = {
     node_address: DEFAULT_REMOTE_NODE,
     pubnodes_last_updated: 946697799000,
     pubnodes_data: config.remoteNodeListFallback,
-    pubnodes_custom: ['127.0.0.1:11898'],
+    pubnodes_custom: ['127.0.0.1:54313'],
     pubnodes_exclude_offline: false,
     tray_minimize: false,
     tray_close: false,
-    darkmode: true,
+    darkmode: false,
     service_config_format: config.walletServiceConfigFormat
 };
-const DEFAULT_SIZE = { width: 840, height: 680 };
+const DEFAULT_SIZE = { width: 800, height: 600 };
 const WIN_TITLE = `${config.appName} ${WALLETSHELL_VERSION} - ${config.appDescription}`;
 
 app.prompExit = true;

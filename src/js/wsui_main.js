@@ -218,11 +218,11 @@ function populateElementVars() {
 // crude/junk template :)
 let jtfr = {
     tFind: [
-        "WalletShell",
-        "https://github.com/turtlecoin/turtle-wallet-electron",
-        "TurtleCoin",
-        "TRTL",
-        "turtle-service",
+        "BlogShell",
+        "https://github.com/blognetwork/BlogCoin-electron-wallet",
+        "BlogCoin",
+        "BLOG",
+        "blogservice-service",
         "CFG_MIN_FEE",
         "CFG_MIN_SEND"
     ],

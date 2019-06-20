@@ -1,6 +1,6 @@
 ## Available keyboard shortcut
 
-![WalletShell Logo](walletshell.png)
+![BlogShell Logo](BlogShell.png)
 
 | Shortcut                                       | Target                               | Conditions |
 | ---------                                      | -------                              | ---------- |

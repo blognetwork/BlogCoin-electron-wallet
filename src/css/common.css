@@ -76,8 +76,8 @@ body {
     margin: 0;
     color: white;
     min-width: 800px;
-    min-height: 400px;
-    background-image: url(../assets/walletshell_logo.png);
+    min-height: 500px;
+    background-image: url(../assets/BlogShell_logo.png);
     background-position: 50% 55%;
     background-size: 25%;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ body {
 
 /* Top navigation bar */
 .navbar {
-    background-color: #212721;
+    background-color: #232823;
     display: grid;
     width: 100%;
     grid-auto-flow: column;
@@ -110,7 +110,7 @@ body {
 }
 
 .navbar-button {
-    height: 45px;
+    height: 40px;
     padding: 0 14px;
     color: white;
     display: block;
@@ -191,8 +191,8 @@ body {
 .title {
     font-weight: normal;
     color: #fff;
-    font-size: 1.85rem;
-    text-shadow: 0px -1px 1px #333;
+    font-size: 1.9rem;
+    text-shadow: 0px -4px 4px #333;
     margin-top: 0;
 }
 #section-addressbook h2.title{
@@ -208,7 +208,7 @@ body {
     box-sizing: border-box;
     color: white;
     /* background-color: rgba(0, 0, 0, 0.18); */
-    background-color: rgba(53, 53, 53, 0.39);
+    background-color: rgba(65, 65, 65, 0.33);
 }
 
 .text-block.input-short{
@@ -296,7 +296,7 @@ select option{
 
 
 select option:nth-child(odd) {
-    background: #4c4c4c;
+    background: #4d4d4d;
 }
 
 .fake-select{
@@ -307,7 +307,7 @@ select option:nth-child(odd) {
     border-radius: 4px;
     box-sizing: border-box;
     color: white;
-    background-color: rgba(53, 53, 53, 0.39);
+    background-color: rgba(65, 65, 65, 0.33);
     position: relative;
      z-index: 1;
     -webkit-touch-callout: none;
@@ -359,7 +359,7 @@ select option:nth-child(odd) {
     padding: 0;
     line-height: 25px;
     position: absolute;
-    background-color: #002f15;
+    background-color: #002f00;
     border: 1px solid #929292cc;
     z-index: 1;
     -webkit-touch-callout: none;
@@ -417,7 +417,7 @@ select option:nth-child(odd) {
     box-sizing: border-box;
     color: white;
     font-size: 1rem;
-    background-color: rgba(53, 53, 53, 0.39)
+    background-color: rgba(65, 65, 65, 0.33)
 }
 
 textarea#wallet-address{
@@ -484,7 +484,7 @@ span.form-msg.important{
 }
 
 .form-msg progress{
-    height: 5px;
+    height: 7px;
     margin: 0 0 0.25rem;
     width: 100%;
 }
@@ -657,9 +657,9 @@ span.form-msg.important{
 
 /** overview styles */
 .welcome-box{
-width: 80%;
-margin: 0 auto;
-text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .div-welcome-top{
@@ -667,9 +667,19 @@ text-align: center;
     text-align: center;
 }
 
-.welcome-intro-title{margin: 0.25rem 0;font-weight: normal;font-size: 3rem !important;text-shadow: 0px -1px 1px #333;}
+.welcome-intro-title{
+    margin: 0.25rem 0;
+    font-weight: normal;
+    font-size: 3rem !important;
+    text-shadow: 0px -1px 1px #333;
+}
 
-.welcome-intro{font-size: 1.5rem;text-shadow: 0px -1px 0px #333;width: 80%;margin: 1rem auto;}
+.welcome-intro{
+    font-size: 1.5rem;
+    text-shadow: 0px -1px 0px #333;
+    width: 80%;
+    margin: 1rem auto;
+}
 
 .dev-welcome-bottom{
     position: absolute;
@@ -694,8 +704,7 @@ text-align: center;
 }
 .welcome-buttons button:nth-child(2){
     grid-column-start: 4; 
-    grid-column-end: 6; 
-
+    grid-column-end: 6;
 }
 
 /* Fields */
@@ -1147,7 +1156,7 @@ dialog[open]{
 .default-dialog{
     width: 500px;
     max-width: 80%;
-    background: #004720;
+    background: #004510;
     color: #fff;
     border: 2px solid #fff;
     padding: 0 1rem;
